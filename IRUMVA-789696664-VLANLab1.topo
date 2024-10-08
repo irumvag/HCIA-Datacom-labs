@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="E81CCF9A-D382-4ba4-AB40-ED725FCEEE96" name="PC3" poe="0" model="PC" settings=" -simpc_hostname pc3  -simpc_ip 192.168.1.3  -simpc_mask 255.255.255.128  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-CD-62-74  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-CD-62-74" com_port="0" bootmode="0" cx="633.000000" cy="198.000000" edit_left="660" edit_top="252">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="0D9492BD-5C55-4fc8-A745-7B8682AE265B" name="PC2" poe="0" model="PC" settings=" -simpc_hostname pc2  -simpc_ip 192.168.1.129  -simpc_mask 255.255.255.128  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-12-69-95  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-12-69-95" com_port="0" bootmode="0" cx="321.000000" cy="187.000000" edit_left="348" edit_top="241">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="2F000C5B-0305-483e-900D-EFB42A1192CF" name="PC4" poe="0" model="PC" settings=" -simpc_hostname pc4  -simpc_ip 192.168.1.130  -simpc_mask 255.255.255.128  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-1E-7B-CB  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-1E-7B-CB" com_port="0" bootmode="0" cx="863.000000" cy="193.000000" edit_left="890" edit_top="247">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="8122B260-BF64-4670-BDA9-28099D7270FD" name="PC1" poe="0" model="PC" settings=" -simpc_hostname pc1  -simpc_ip 192.168.1.1  -simpc_mask 255.255.255.128  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-5B-45-3C  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-5B-45-3C" com_port="0" bootmode="0" cx="124.000000" cy="194.000000" edit_left="151" edit_top="248">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="D0409936-ED40-43af-9732-A2C2481108BC" name="SW2" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-9E-4B-05" com_port="2001" bootmode="0" cx="731.000000" cy="21.000000" edit_left="754" edit_top="7">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="60CACB9C-12AE-4dcf-865F-37D500E75D59" name="SW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-DF-33-1F" com_port="2000" bootmode="0" cx="201.000000" cy="21.000000" edit_left="226" edit_top="7">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="60CACB9C-12AE-4dcf-865F-37D500E75D59" destDeviceID="D0409936-ED40-43af-9732-A2C2481108BC">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="1" srcBoundRect_X="271.183777" srcBoundRect_Y="48.000000" srcOffset_X="-16.000000" srcOffset_Y="6.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="714.816223" tarBoundRect_Y="48.000000" tarOffset_X="-41.000000" tarOffset_Y="3.000000" />
+        </line>
+        <line srcDeviceID="8122B260-BF64-4670-BDA9-28099D7270FD" destDeviceID="60CACB9C-12AE-4dcf-865F-37D500E75D59">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="168.559738" srcBoundRect_Y="181.547592" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="210.440262" tarBoundRect_Y="87.452415" tarOffset_X="-51.000000" tarOffset_Y="-11.000000" />
+        </line>
+        <line srcDeviceID="60CACB9C-12AE-4dcf-865F-37D500E75D59" destDeviceID="0D9492BD-5C55-4fc8-A745-7B8682AE265B">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="253.299072" srcBoundRect_Y="82.997063" srcOffset_X="8.000000" srcOffset_Y="-1.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="322.700928" tarBoundRect_Y="179.002945" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="E81CCF9A-D382-4ba4-AB40-ED725FCEEE96" destDeviceID="D0409936-ED40-43af-9732-A2C2481108BC">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="680.917480" srcBoundRect_Y="187.220428" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="737.082520" tarBoundRect_Y="85.779572" tarOffset_X="-55.000000" tarOffset_Y="7.000000" />
+        </line>
+        <line srcDeviceID="2F000C5B-0305-483e-900D-EFB42A1192CF" destDeviceID="D0409936-ED40-43af-9732-A2C2481108BC">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="863.708923" srcBoundRect_Y="185.741913" srcOffset_X="-73.000000" srcOffset_Y="4.000000" tarIndex="1" tarBoundRectIsMoved="1" tarBoundRect_X="784.291077" tarBoundRect_Y="82.258087" tarOffset_X="8.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="119" top="261" right="199" bottom="307" content="Finance&#x0D;&#x0A;VLAN 10" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="322" top="251" right="402" bottom="297" content="Sales&#x0D;&#x0A;VLAN 20" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="804" top="97" right="872" bottom="117" content="PVID 20" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16744193" txtbkcolor="-1" charset="1" />
+        <txttip left="267" top="92" right="335" bottom="112" content="PVID 20" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16744193" txtbkcolor="-1" charset="1" />
+        <txttip left="652" top="107" right="720" bottom="127" content="PVID 10" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16744193" txtbkcolor="-1" charset="1" />
+        <txttip left="136" top="87" right="204" bottom="107" content="PVID 10" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16744193" txtbkcolor="-1" charset="1" />
+        <txttip left="675" top="35" right="734" bottom="55" content="PVID 1" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16744193" txtbkcolor="-1" charset="1" />
+        <txttip left="254" top="30" right="313" bottom="50" content="PVID 1" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16744193" txtbkcolor="-1" charset="1" />
+        <txttip left="68" top="320" right="329" bottom="484" content="IP Address Planning&#x0D;&#x0A;VLAN 10: 192.168.1.0/25&#x0D;&#x0A;  PC1: 192.168.1.1/25&#x0D;&#x0A;  PC3: 192.168.1.3/25&#x0D;&#x0A;&#x0D;&#x0A;VLAN 20: 192.168.1.128/25&#x0D;&#x0A;  PC2: 192.168.1.129/25&#x0D;&#x0A;  PC4: 192.168.1.130/25" fontname="Consolas" fontstyle="0" editsize="130" txtcolor="-16777216" txtbkcolor="-4144960" charset="1" />
+        <txttip left="406" top="323" right="824" bottom="487" content="Interface   Type    PVID   Permitted VLANs&#x0D;&#x0A;SW1-G0/0/1  Access  10     -&#x0D;&#x0A;SW1-G0/0/2  Access  20     -&#x0D;&#x0A;SW1-G0/0/3  Trunk   1      1,10,20&#x0D;&#x0A;&#x0D;&#x0A;SW2-G0/0/1  Access  10     -&#x0D;&#x0A;SW2-G0/0/2  Access  20     -&#x0D;&#x0A;SW2-G0/0/3  Trunk   1      1,10,20" fontname="Consolas" fontstyle="0" editsize="130" txtcolor="-16777216" txtbkcolor="-4144960" charset="1" />
+        <txttip left="11" top="494" right="1248" bottom="683" content="Requirements:&#x0D;&#x0A;1. Configure device names and IP addresses for each device&#x0D;&#x0A;2. Configure IP addresses and VLANs according to the above reference tables.&#x0D;&#x0A;3. Using ping utility, test connectivity between each device to each other device. Which Computers can communicate? Why not the others?&#x0D;&#x0A;4. Capture ping(ICMP) frames at G0/0/1 of SW1 and G0/0/3 of SW1. Through WireShark, compare the captured frame encapsulations.&#x0D;&#x0A;   Be sure to run a ping from PC1 to PC3 to capture frames. What&apos;s the difference between the frame encapsulations?&#x0D;&#x0A; Answer: the different is at second frame which are showing the are some different &#x0D;&#x0A;5. Save your configurations on all devices and save the topology as &apos;Name-UserID-VLANlab1&apos;&#x0D;&#x0A;&#x0D;&#x0A;NOTE: Please save your captures and add them to your zipped folder. They should be submitted together with the Lab." fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-4144960" charset="1" />
+        <txttip left="624" top="263" right="704" bottom="309" content="Finance&#x0D;&#x0A;VLAN 10" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="843" top="260" right="923" bottom="306" content="Sales&#x0D;&#x0A;VLAN 20" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+    </txttips>
+</topo>

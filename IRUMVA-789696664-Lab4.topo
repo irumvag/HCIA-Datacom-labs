@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="5AEB1070-5A87-4183-9DD4-3FF96BD3DC09" name="Router" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-11-7A-16" com_port="2000" bootmode="0" cx="732.000000" cy="124.000000" edit_left="759" edit_top="178">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="58A0BCBB-16EA-41b9-AE60-8CB5CB357306" name="PC" poe="0" model="PC" settings=" -simpc_hostname pc  -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-95-6C-2B  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-95-6C-2B" com_port="0" bootmode="0" cx="342.000000" cy="124.000000" edit_left="369" edit_top="178">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="58A0BCBB-16EA-41b9-AE60-8CB5CB357306" destDeviceID="5AEB1070-5A87-4183-9DD4-3FF96BD3DC09">
+            <interfacePair lineName="CTL" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="412.183777" srcBoundRect_Y="151.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="715.816223" tarBoundRect_Y="151.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="36" top="252" right="1258" bottom="516" content="Instructions:&#x0D;&#x0A;1. Start-up the topology&#x0D;&#x0A;2. Double click the PC and go to the console tab.&#x0D;&#x0A;3. Complete basic configurations of the router. Device name(name should be Firstname - Router), IP address for each &#x0D;&#x0A;   interface based on;&#x0D;&#x0A;   GigabitEthernet0/0/1 - 192.168.1.1 255.255.255.0&#x0D;&#x0A;   GigabitEthernet0/0/2 - 192.168.2.1 255.255.255.0&#x0D;&#x0A;   GigabitEthernet0/0/3 - 192.168.3.1 255.255.255.0&#x0D;&#x0A;4. Use the command &apos;display ip interface brief&apos; to confirm the ip address configurations&#x0D;&#x0A;5. run &apos;display current-configuration&apos; to see all the other configurations on the Router.&#x0D;&#x0A;6. run &apos;save&apos; to save the router configurations. Don&apos;t forget to comfirm saving at the prompt.&#x0D;&#x0A;7. Save the complete work as &apos;Firstname-UserID-Lab4&apos; and zip the resulting folder. Upload the zip to the lms" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-2044184" charset="1" />
+    </txttips>
+</topo>

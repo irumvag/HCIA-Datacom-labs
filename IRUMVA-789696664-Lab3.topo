@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="D776C60B-7323-4db9-87AD-705EE08091E0" name="Switch A" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-ED-6D-D8" com_port="2000" bootmode="0" cx="471.000000" cy="179.000000" edit_left="498" edit_top="233">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="76856B32-61AA-4bbb-B07E-2BE891966759" name="Switch B" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-25-2A-03" com_port="2001" bootmode="0" cx="770.000000" cy="179.000000" edit_left="797" edit_top="233">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="A389F347-38AF-4236-96CD-E8DA2C1F3490" name="PC1" poe="0" model="PC" settings=" -simpc_hostname PC1  -simpc_ip 10.0.1.1  -simpc_mask 255.255.255.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-D7-4C-D7  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-D7-4C-D7" com_port="0" bootmode="0" cx="227.000000" cy="23.000000" edit_left="254" edit_top="77">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="368E3E4C-CCDC-4497-8106-CCCCD5D874E9" name="PC2" poe="0" model="PC" settings=" -simpc_hostname PC2  -simpc_ip 10.0.1.2  -simpc_mask 255.255.255.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-1B-52-9A  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-1B-52-9A" com_port="0" bootmode="0" cx="227.000000" cy="179.000000" edit_left="254" edit_top="233">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="0A59F747-E69A-4a70-B1E8-04F087B4A207" name="PC3" poe="0" model="PC" settings=" -simpc_hostname PC3  -simpc_ip 10.0.1.3  -simpc_mask 255.255.255.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-D2-35-31  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-D2-35-31" com_port="0" bootmode="0" cx="227.000000" cy="339.000000" edit_left="254" edit_top="393">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="3CA99D10-1C1D-4be1-9E62-7491B1178198" name="PC4" poe="0" model="PC" settings=" -simpc_hostname PC4  -simpc_ip 10.0.1.4  -simpc_mask 255.255.255.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-9E-54-11  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-9E-54-11" com_port="0" bootmode="0" cx="994.000000" cy="23.000000" edit_left="1021" edit_top="77">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="FDE8DAE1-2C65-444e-A299-875C396621C5" name="PC5" poe="0" model="PC" settings=" -simpc_hostname PC5  -simpc_ip 10.0.1.5  -simpc_mask 255.255.255.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-C1-57-F3  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-C1-57-F3" com_port="0" bootmode="0" cx="994.000000" cy="179.000000" edit_left="1021" edit_top="233">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="9FC3645A-F66F-46b7-90DF-BE5481A7E525" name="PC6" poe="0" model="PC" settings=" -simpc_hostname PC6  -simpc_ip 10.0.1.6  -simpc_mask 255.255.255.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-48-7A-D1  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-48-7A-D1" com_port="0" bootmode="0" cx="994.000000" cy="339.000000" edit_left="1021" edit_top="393">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="D776C60B-7323-4db9-87AD-705EE08091E0" destDeviceID="76856B32-61AA-4bbb-B07E-2BE891966759">
+            <interfacePair lineName="Copper" srcIndex="9" srcBoundRectIsMoved="1" srcBoundRect_X="541.183777" srcBoundRect_Y="206.000000" srcOffset_X="-21.000000" srcOffset_Y="4.000000" tarIndex="9" tarBoundRectIsMoved="1" tarBoundRect_X="753.816223" tarBoundRect_Y="206.000000" tarOffset_X="-60.000000" tarOffset_Y="-15.000000" />
+        </line>
+        <line srcDeviceID="A389F347-38AF-4236-96CD-E8DA2C1F3490" destDeviceID="D776C60B-7323-4db9-87AD-705EE08091E0">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="290.383270" srcBoundRect_Y="73.261444" srcOffset_X="10.000000" srcOffset_Y="-8.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="461.616730" tarBoundRect_Y="182.738556" tarOffset_X="2.000000" tarOffset_Y="-13.000000" />
+        </line>
+        <line srcDeviceID="368E3E4C-CCDC-4497-8106-CCCCD5D874E9" destDeviceID="D776C60B-7323-4db9-87AD-705EE08091E0">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="297.183777" srcBoundRect_Y="206.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="1" tarBoundRect_X="454.816223" tarBoundRect_Y="206.000000" tarOffset_X="-72.000000" tarOffset_Y="-14.000000" />
+        </line>
+        <line srcDeviceID="0A59F747-E69A-4a70-B1E8-04F087B4A207" destDeviceID="D776C60B-7323-4db9-87AD-705EE08091E0">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="290.112183" srcBoundRect_Y="342.319885" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="461.887817" tarBoundRect_Y="229.680115" tarOffset_X="-83.000000" tarOffset_Y="-1.000000" />
+        </line>
+        <line srcDeviceID="76856B32-61AA-4bbb-B07E-2BE891966759" destDeviceID="3CA99D10-1C1D-4be1-9E62-7491B1178198">
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="1" srcBoundRect_X="832.436890" srcBoundRect_Y="181.320740" srcOffset_X="12.000000" srcOffset_Y="-10.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="985.563110" tarBoundRect_Y="74.679253" tarOffset_X="-76.000000" tarOffset_Y="-12.000000" />
+        </line>
+        <line srcDeviceID="76856B32-61AA-4bbb-B07E-2BE891966759" destDeviceID="FDE8DAE1-2C65-444e-A299-875C396621C5">
+            <interfacePair lineName="Copper" srcIndex="4" srcBoundRectIsMoved="0" srcBoundRect_X="840.183777" srcBoundRect_Y="206.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="977.816223" tarBoundRect_Y="206.000000" tarOffset_X="-54.000000" tarOffset_Y="-12.000000" />
+        </line>
+        <line srcDeviceID="76856B32-61AA-4bbb-B07E-2BE891966759" destDeviceID="9FC3645A-F66F-46b7-90DF-BE5481A7E525">
+            <interfacePair lineName="Copper" srcIndex="5" srcBoundRectIsMoved="0" srcBoundRect_X="832.140076" srcBoundRect_Y="231.100052" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="985.859924" tarBoundRect_Y="340.899933" tarOffset_X="-61.000000" tarOffset_Y="9.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="1" filloption="1" color="14467256" upleftcorner="176,11" width="399" height="411" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="14467256" upleftcorner="717,11" width="399" height="411" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+    </shapes>
+    <txttips>
+        <txttip left="403" top="25" right="546" bottom="49" content="Office Area A" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="735" top="22" right="878" bottom="46" content="Office Area B" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="76" top="31" right="219" bottom="77" content="10.0.1.1&#x0D;&#x0A;255.255.255.0" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="67" top="184" right="210" bottom="230" content="10.0.1.2&#x0D;&#x0A;255.255.255.0" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="68" top="342" right="211" bottom="388" content="10.0.1.3&#x0D;&#x0A;255.255.255.0" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="1058" top="344" right="1201" bottom="390" content="10.0.1.6&#x0D;&#x0A;255.255.255.0" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="1066" top="33" right="1209" bottom="79" content="10.0.1.4&#x0D;&#x0A;255.255.255.0" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="1056" top="186" right="1199" bottom="232" content="10.0.1.5&#x0D;&#x0A;255.255.255.0" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-1" charset="1" />
+        <txttip left="27" top="448" right="1354" bottom="734" content="Instructions:&#x0D;&#x0A;1. Configure the Name, IP Address and Subnet Mask of all the devices&#x0D;&#x0A;2. Test connectivity from each PC to every other PC&#x0D;&#x0A;3. Use th command &apos;display mac-address&apos; to check the MAC address tables of switches A and B. Take note of the mappings&#x0D;&#x0A;   of PC4, 5 and 6 to Switch A, and the mappings of PC1, 2 and 3 to Switch B?&#x0D;&#x0A;4. Check the arp cache of PC1, 2 and 5. Take note of the information in the arp cache.&#x0D;&#x0A;   (to check the arp cache, go to the PC command tab, and type &apos;arp -a&apos; without the quotes)&#x0D;&#x0A;5. Capture backets at Eth0/0/10 of Switch B. Note the kind(type) of exchanged information. Where is it from? where is it to?&#x0D;&#x0A;   What is it for?&#x0D;&#x0A;  Answer: Information will be from office A to Offce B, it is for testing connectivity  &#x0D;&#x0A;6. Save the complete work as &apos;FirstName-UserID-Lab3&apos;&#x0D;&#x0A;FFT: What would happen if the link between Switch A and B got a problem? How can we guard against this issue?&#x0D;&#x0A;  Answer: The connection from Office A to Office B will be cutted down and we can protect that through doing regular check up" fontname="Consolas" fontstyle="0" editsize="140" txtcolor="-16777216" txtbkcolor="-2044184" charset="1" />
+    </txttips>
+</topo>
